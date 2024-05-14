@@ -16,22 +16,10 @@ st.set_page_config(
     page_icon=":brain:",  # Brain emoji for icon
 )
 #st.beta_set_background("/Users/zakariaelkhilani/Documents/Work/Vscode/streamlt/Image1.jpeg"  # Replace with your image path)
-images = [
-    "/Users/zakariaelkhilani/Documents/Work/Vscode/streamlt/Image1.jpeg",
-      # Add more images as needed
-]
 
 # Title text
 st.markdown("<h1 style='text-align: center;'>Unveiling VULnerability: An Interactive Exploration</h1>", unsafe_allow_html=True)
 
-# Image carousel
-col1, col2 = st.columns([2, 3])
-with col1:
-    pass  
-
-with col2:
-    for image in images:
-        st.image(image, width=150)  # Adjust image width as needed
 
 # Introduction text
 st.markdown(
